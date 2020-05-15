@@ -20,9 +20,6 @@
 
 
 #include "processor.h"
-#include <chrono>
-#include <thread>
-#include <cmath>
 #include <vector>
 #include <iostream>
 
@@ -42,3 +39,7 @@ float Processor::Utilization() {
   totalJiffies_ = total[1];
   return util;
 }
+
+
+// *** %n in writable segment detected ***
+//  Aborted (core dumped)
